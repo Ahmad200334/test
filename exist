@@ -1,0 +1,100 @@
+[33mcommit 08b63074ab5534dc4e2fd07de5366a87bec47d45[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: Ahmad khaled <eng.ahmadkhaled21@gmail.com>
+Date:   Mon Oct 13 16:52:12 2025 +0300
+
+    First Commit
+
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mnew file mode 100644[m
+[1mindex 0000000..b364828[m
+[1m--- /dev/null[m
+[1m+++ b/.gitignore[m
+[36m@@ -0,0 +1,4 @@[m
+[32m+[m[32m# Ignore OS files and archives[m
+[32m+[m[32m.DS_Store[m
+[32m+[m[32mThumbs.db[m
+[32m+[m[32m*.zip[m
+[1mdiff --git a/about.html b/about.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..4c686cc[m
+[1m--- /dev/null[m
+[1m+++ b/about.html[m
+[36m@@ -0,0 +1,12 @@[m
+[32m+[m[32m<!doctype html>[m
+[32m+[m[32m<html lang="en">[m
+[32m+[m[32m<head>[m
+[32m+[m[32m  <meta charset="utf-8">[m
+[32m+[m[32m  <title>Practice Site - About</title>[m
+[32m+[m[32m</head>[m
+[32m+[m[32m<body>[m
+[32m+[m[32m  <h1>About This Project</h1>[m
+[32m+[m[32m  <p>This simple set of pages is for practicing Git commands (add, commit, branch, merge...).</p>[m
+[32m+[m[32m  <a href="index.html">Back to Home</a>[m
+[32m+[m[32m</body>[m
+[32m+[m[32m</html>[m
+[1mdiff --git a/contact.html b/contact.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..70009d4[m
+[1m--- /dev/null[m
+[1m+++ b/contact.html[m
+[36m@@ -0,0 +1,12 @@[m
+[32m+[m[32m<!doctype html>[m
+[32m+[m[32m<html lang="en">[m
+[32m+[m[32m<head>[m
+[32m+[m[32m  <meta charset="utf-8">[m
+[32m+[m[32m  <title>Practice Site - Contact</title>[m
+[32m+[m[32m</head>[m
+[32m+[m[32m<body>[m
+[32m+[m[32m  <h1>Contact</h1>[m
+[32m+[m[32m  <p>Email: example@example.com</p>[m
+[32m+[m[32m  <a href="index.html">Back to Home</a>[m
+[32m+[m[32m</body>[m
+[32m+[m[32m</html>[m
+[1mdiff --git a/index.html b/index.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..08e98b1[m
+[1m--- /dev/null[m
+[1m+++ b/index.html[m
+[36m@@ -0,0 +1,20 @@[m
+[32m+[m[32m<!doctype html>[m
+[32m+[m[32m<html lang="en">[m
+[32m+[m[32m<head>[m
+[32m+[m[32m  <meta charset="utf-8">[m
+[32m+[m[32m  <title>Practice Site - Home</title>[m
+[32m+[m[32m</head>[m
+[32m+[m[32m<body>[m
+[32m+[m[32m  <h1>Welcome to the Git Practice Site</h1>[m
+[32m+[m[32m  <p>This is the <strong>home</strong> page. Use it to practice commits, branching and merges.</p>[m
+[32m+[m[32m  <nav>[m
+[32m+[m[32m    <a href="index.html">Home</a> |[m
+[32m+[m[32m    <a href="about.html">About</a> |[m
+[32m+[m[32m    <a href="products.html">Products</a> |[m
+[32m+[m[32m    <a href="contact.html">Contact</a>[m
+[32m+[m[32m  </nav>[m
+[32m+[m[32m  <footer>[m
+[32m+[m[32m    <p>Version: 1.0</p>[m
+[32m+[m[32m  </footer>[m
+[32m+[m[32m</body>[m
+[32m+[m[32m</html>[m
+[1mdiff --git a/products.html b/products.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..640d637[m
+[1m--- /dev/null[m
+[1m+++ b/products.html[m
+[36m@@ -0,0 +1,16 @@[m
+[32m+[m[32m<!doctype html>[m
+[32m+[m[32m<html lang="en">[m
+[32m+[m[32m<head>[m
+[32m+[m[32m  <meta charset="utf-8">[m
+[32m+[m[32m  <title>Practice Site - Products</title>[m
+[32m+[m[32m</head>[m
+[32m+[m[32m<body>[m
+[32m+[m[32m  <h1>Products</h1>[m
+[32m+[m[32m  <ul>[m
+[32m+[m[32m    <li>Product A</li>[m
+[32m+[m[32m    <li>Product B</li>[m
+[32m+[m[32m    <li>Product C</li>[m
+[32m+[m[32m  </ul>[m
+[32m+[m[32m  <a href="index.html">Back to Home</a>[m
+[32m+[m[32m</body>[m
+[32m+[m[32m</html>[m
